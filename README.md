@@ -1,10 +1,13 @@
 # Asistensi-Dasprog-P3
 ## Soal
+Buatlah Kalkulator sederhana yang bisa menjalankan fungsionalitas kabataku (Kali, Bagi, Tambah, Kurang). Namun agar lebih spesial, kalkulator ini juga bisa digunakan untuk mendapatkan faktorial, KPK, FPB, dan atau fungsi matematis lainnya.
 ### Kode
-''' c
+```c
 
 #include <stdio.h>
+
 #include <stdlib.h>
+
 #include <string.h>
 
 int add(int a, int b) {
@@ -96,11 +99,8 @@ int main() {
             } else {
                 printf("Operator tidak dikenal.\n");
             }
-        } else {
+        } else 
             printf("Format input tidak valid.\n");
         }
     }
-
-    printf("Kalkulator ditutup.\n");
-    return 0;
-}
+    ```
